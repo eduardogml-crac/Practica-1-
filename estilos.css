@@ -1,0 +1,163 @@
+/*
+    Selector Universal
+*/
+
+*{
+    /* Propiedad:valor*/
+    margin: 0; /* Margen */
+    padding: 0; /* sangria */
+}
+
+body{
+    background-color: greenyellow; /* color Fondo */
+    color: black; /* Color letra */
+}
+
+#contenedor{
+    width: 95%;
+    margin: 2px auto;
+    /*background-color: silver;*/
+}
+
+#menu{
+    border: 1px silver solid;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px silver solid;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#principal{
+    width: 80%;
+    margin: 5px auto;
+}
+
+.tarjeta{
+    float: left;
+    width: 32%;
+    background: linear-gradient(to right,silver,gray);
+    border-radius: 10px;
+}
+
+.tarjeta img{
+    border-radius: 100px;
+}
+
+h2{
+    text-align: center;
+    clear: both;
+    padding: 15px 0;
+}
+
+section{
+    display: flow-root;
+}
+
+section .producto{
+    margin-left: 10px;
+    float: left;
+    width: 19%;
+    border: 1px green;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.centrar{
+    text-align: center;
+}
+
+.centrar img{
+    border-radius: 120px;
+}
+
+h3{
+    padding-left: 20px; 
+}
+
+.botones{
+    padding-left: 20px;
+    padding-top: 5px;
+    border-top: 1px red;
+}
+
+.boton{
+    width: 40%;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.boton2{
+    background-color: yellow;
+}
+
+.formulario{
+    width: 50%;
+    margin: 10px auto;
+    background: linear-gradient(to right,silver,grey);
+    border: 1px silver solid;
+    border-radius: 10px;
+}
+
+.registro{
+    width: 80%;
+    padding-top: 20px;
+    margin: 2px auto;
+}
+
+.caja{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+}
+
+.remitir{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+
+}
+
+h4{
+    color: red;
+}
+
+article{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin:0px auto;
+}
+
+.empresa{
+    width: 80%;
+    margin: 0px auto;
+}
+
+footer{
+    text-align: right;
+    padding-right: 20px;
+    color:silver;
+}
